@@ -1,0 +1,1070 @@
+[
+  {
+    "id": "eval-001",
+    "question": "What is Retrieval-Augmented Generation?",
+    "expected_answer": "combines pre-trained parametric memory with non-parametric retrieval memory",
+    "expected_keywords": [
+      "parametric",
+      "retrieval",
+      "memory"
+    ],
+    "should_abstain": false,
+    "difficulty": "Easy",
+    "category": "Factual"
+  },
+  {
+    "id": "eval-002",
+    "question": "What do dense vector retrievers employ to map queries and passages?",
+    "expected_answer": "sentence transformers to map queries and passages into dense continuous vector spaces",
+    "expected_keywords": [
+      "sentence transformers",
+      "dense",
+      "vector"
+    ],
+    "should_abstain": false,
+    "difficulty": "Easy",
+    "category": "Factual"
+  },
+  {
+    "id": "eval-003",
+    "question": "What sparse keyword retrieval method captures exact term frequencies?",
+    "expected_answer": "BM25Plus or inverted token indices",
+    "expected_keywords": [
+      "bm25",
+      "sparse",
+      "keyword"
+    ],
+    "should_abstain": false,
+    "difficulty": "Easy",
+    "category": "Factual"
+  },
+  {
+    "id": "eval-004",
+    "question": "How does hybrid retrieval unify dense and sparse scores?",
+    "expected_answer": "via Reciprocal Rank Fusion (RRF)",
+    "expected_keywords": [
+      "reciprocal rank fusion",
+      "rrf"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Factual"
+  },
+  {
+    "id": "eval-005",
+    "question": "Why do Bi-encoders lack token-to-token cross-attention?",
+    "expected_answer": "they encode query and passage independently into single vectors",
+    "expected_keywords": [
+      "bi-encoder",
+      "cross-attention",
+      "independently"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Factual"
+  },
+  {
+    "id": "eval-006",
+    "question": "Which reranker model is specifically noted for cross-attention scoring?",
+    "expected_answer": "ms-marco-MiniLM-L-6-v2 Cross-Encoder",
+    "expected_keywords": [
+      "cross-encoder",
+      "reranker",
+      "ms-marco"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Factual"
+  },
+  {
+    "id": "eval-007",
+    "question": "What must a production RAG system do when evidence score falls below threshold?",
+    "expected_answer": "abstain and notify the user of insufficient evidence",
+    "expected_keywords": [
+      "abstain",
+      "insufficient",
+      "threshold"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Factual"
+  },
+  {
+    "id": "eval-008",
+    "question": "What architecture powers modern Large Language Models?",
+    "expected_answer": "Self-attention mechanisms and transformers",
+    "expected_keywords": [
+      "self-attention",
+      "transformers"
+    ],
+    "should_abstain": false,
+    "difficulty": "Easy",
+    "category": "Factual"
+  },
+  {
+    "id": "eval-009",
+    "question": "What are Convolutional Neural Networks tailored for?",
+    "expected_answer": "Spatial data like images",
+    "expected_keywords": [
+      "convolutional",
+      "spatial",
+      "images"
+    ],
+    "should_abstain": false,
+    "difficulty": "Easy",
+    "category": "Factual"
+  },
+  {
+    "id": "eval-010",
+    "question": "What type of data do Recurrent Neural Networks process?",
+    "expected_answer": "Sequential data and time series",
+    "expected_keywords": [
+      "sequential",
+      "time series"
+    ],
+    "should_abstain": false,
+    "difficulty": "Easy",
+    "category": "Factual"
+  },
+  {
+    "id": "eval-011",
+    "question": "Can you explain how RAG minimizes hallucinations in LLMs?",
+    "expected_answer": "grounds answers in factual domain sources",
+    "expected_keywords": [
+      "parametric",
+      "retrieval",
+      "ground"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Paraphrase"
+  },
+  {
+    "id": "eval-012",
+    "question": "In what way are sparse and dense search results combined?",
+    "expected_answer": "Reciprocal Rank Fusion RRF",
+    "expected_keywords": [
+      "reciprocal",
+      "fusion",
+      "rrf"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Paraphrase"
+  },
+  {
+    "id": "eval-013",
+    "question": "What model performs full token interaction between question and passage?",
+    "expected_answer": "Cross-Encoder rerankers",
+    "expected_keywords": [
+      "cross-encoder",
+      "reranker"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Paraphrase"
+  },
+  {
+    "id": "eval-014",
+    "question": "Which neural network architecture is best suited for visual imagery?",
+    "expected_answer": "Convolutional neural networks",
+    "expected_keywords": [
+      "convolutional",
+      "spatial",
+      "images"
+    ],
+    "should_abstain": false,
+    "difficulty": "Easy",
+    "category": "Paraphrase"
+  },
+  {
+    "id": "eval-015",
+    "question": "What mechanism enables modern transformers to weigh input dynamically?",
+    "expected_answer": "Self-attention mechanisms",
+    "expected_keywords": [
+      "self-attention",
+      "transformers"
+    ],
+    "should_abstain": false,
+    "difficulty": "Easy",
+    "category": "Paraphrase"
+  },
+  {
+    "id": "eval-016",
+    "question": "What is the role of IndexFlatIP in FAISS?",
+    "expected_answer": "inner product search for normalized embeddings",
+    "expected_keywords": [
+      "inner product",
+      "faiss",
+      "vector"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Exact-Jargon"
+  },
+  {
+    "id": "eval-017",
+    "question": "What is BM25Plus?",
+    "expected_answer": "lexical keyword retrieval scoring function",
+    "expected_keywords": [
+      "bm25",
+      "keyword",
+      "sparse"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Exact-Jargon"
+  },
+  {
+    "id": "eval-018",
+    "question": "Why is reciprocal rank fusion constant set to 60?",
+    "expected_answer": "smooths ranks across heterogeneous retrievers",
+    "expected_keywords": [
+      "rrf",
+      "fusion",
+      "rank"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Exact-Jargon"
+  },
+  {
+    "id": "eval-019",
+    "question": "What is ms-marco-MiniLM-L-6-v2?",
+    "expected_answer": "a CrossEncoder model trained for passage ranking",
+    "expected_keywords": [
+      "cross-encoder",
+      "ms-marco"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Exact-Jargon"
+  },
+  {
+    "id": "eval-020",
+    "question": "What are its main benefits?",
+    "expected_answer": "reduces hallucinations and grounds answers",
+    "expected_keywords": [
+      "hallucinations",
+      "ground",
+      "memory"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Conversational",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "What is RAG?"
+      },
+      {
+        "role": "assistant",
+        "content": "RAG is Retrieval-Augmented Generation."
+      }
+    ]
+  },
+  {
+    "id": "eval-021",
+    "question": "How does it differ from bi-encoders?",
+    "expected_answer": "Cross-encoders evaluate query-passage tokens jointly",
+    "expected_keywords": [
+      "cross-encoder",
+      "bi-encoder",
+      "attention"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Conversational",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "What are cross-encoders?"
+      },
+      {
+        "role": "assistant",
+        "content": "Cross-encoders rerank retrieved passages."
+      }
+    ]
+  },
+  {
+    "id": "eval-022",
+    "question": "What kind of data does it handle?",
+    "expected_answer": "Sequential data and time series",
+    "expected_keywords": [
+      "sequential",
+      "time series"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Conversational",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "What is an RNN?"
+      },
+      {
+        "role": "assistant",
+        "content": "An RNN is a Recurrent Neural Network."
+      }
+    ]
+  },
+  {
+    "id": "eval-023",
+    "question": "What is the recipe for traditional Italian tiramisu?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-024",
+    "question": "What was the GDP of Germany in 2018?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-025",
+    "question": "How do black holes affect spacetime curvature?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-026",
+    "question": "What are the side effects of ibuprofen in pediatric patients?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-027",
+    "question": "Who won the 1994 FIFA World Cup?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-028",
+    "question": "How does photosynthesis occur in marine algae?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-029",
+    "question": "What is the chemical composition of basaltic lava?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-030",
+    "question": "How does dense retrieval function in production RAG systems?",
+    "expected_answer": "Theoretical description of dense retrieval",
+    "expected_keywords": [
+      "rag",
+      "retrieval"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-031",
+    "question": "What are the key trade-offs when implementing dense retrieval?",
+    "expected_answer": "Theoretical description of dense retrieval",
+    "expected_keywords": [
+      "rerank",
+      "hybrid",
+      "score"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-032",
+    "question": "Could you summarize the theoretical motivation for dense retrieval?",
+    "expected_answer": "Theoretical description of dense retrieval",
+    "expected_keywords": [
+      "memory",
+      "parametric",
+      "ground"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-033",
+    "question": "In what scenarios does dense retrieval fail or deliver sub-optimal results?",
+    "expected_answer": "Theoretical description of dense retrieval",
+    "expected_keywords": [
+      "abstain",
+      "insufficient",
+      "threshold"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-034",
+    "question": "How does sparse BM25 indexing function in production RAG systems?",
+    "expected_answer": "Theoretical description of sparse BM25 indexing",
+    "expected_keywords": [
+      "rag",
+      "retrieval"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-035",
+    "question": "What are the key trade-offs when implementing sparse BM25 indexing?",
+    "expected_answer": "Theoretical description of sparse BM25 indexing",
+    "expected_keywords": [
+      "rerank",
+      "hybrid",
+      "score"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-036",
+    "question": "Could you summarize the theoretical motivation for sparse BM25 indexing?",
+    "expected_answer": "Theoretical description of sparse BM25 indexing",
+    "expected_keywords": [
+      "memory",
+      "parametric",
+      "ground"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-037",
+    "question": "In what scenarios does sparse BM25 indexing fail or deliver sub-optimal results?",
+    "expected_answer": "Theoretical description of sparse BM25 indexing",
+    "expected_keywords": [
+      "abstain",
+      "insufficient",
+      "threshold"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-038",
+    "question": "How does Reciprocal Rank Fusion function in production RAG systems?",
+    "expected_answer": "Theoretical description of Reciprocal Rank Fusion",
+    "expected_keywords": [
+      "rag",
+      "retrieval"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-039",
+    "question": "What are the key trade-offs when implementing Reciprocal Rank Fusion?",
+    "expected_answer": "Theoretical description of Reciprocal Rank Fusion",
+    "expected_keywords": [
+      "rerank",
+      "hybrid",
+      "score"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-040",
+    "question": "Could you summarize the theoretical motivation for Reciprocal Rank Fusion?",
+    "expected_answer": "Theoretical description of Reciprocal Rank Fusion",
+    "expected_keywords": [
+      "memory",
+      "parametric",
+      "ground"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-041",
+    "question": "In what scenarios does Reciprocal Rank Fusion fail or deliver sub-optimal results?",
+    "expected_answer": "Theoretical description of Reciprocal Rank Fusion",
+    "expected_keywords": [
+      "abstain",
+      "insufficient",
+      "threshold"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-042",
+    "question": "How does CrossEncoder reranking function in production RAG systems?",
+    "expected_answer": "Theoretical description of CrossEncoder reranking",
+    "expected_keywords": [
+      "rag",
+      "retrieval"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-043",
+    "question": "What are the key trade-offs when implementing CrossEncoder reranking?",
+    "expected_answer": "Theoretical description of CrossEncoder reranking",
+    "expected_keywords": [
+      "rerank",
+      "hybrid",
+      "score"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-044",
+    "question": "Could you summarize the theoretical motivation for CrossEncoder reranking?",
+    "expected_answer": "Theoretical description of CrossEncoder reranking",
+    "expected_keywords": [
+      "memory",
+      "parametric",
+      "ground"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-045",
+    "question": "In what scenarios does CrossEncoder reranking fail or deliver sub-optimal results?",
+    "expected_answer": "Theoretical description of CrossEncoder reranking",
+    "expected_keywords": [
+      "abstain",
+      "insufficient",
+      "threshold"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-046",
+    "question": "How does query rewriting function in production RAG systems?",
+    "expected_answer": "Theoretical description of query rewriting",
+    "expected_keywords": [
+      "rag",
+      "retrieval"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-047",
+    "question": "What are the key trade-offs when implementing query rewriting?",
+    "expected_answer": "Theoretical description of query rewriting",
+    "expected_keywords": [
+      "rerank",
+      "hybrid",
+      "score"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-048",
+    "question": "Could you summarize the theoretical motivation for query rewriting?",
+    "expected_answer": "Theoretical description of query rewriting",
+    "expected_keywords": [
+      "memory",
+      "parametric",
+      "ground"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-049",
+    "question": "In what scenarios does query rewriting fail or deliver sub-optimal results?",
+    "expected_answer": "Theoretical description of query rewriting",
+    "expected_keywords": [
+      "abstain",
+      "insufficient",
+      "threshold"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-050",
+    "question": "How does faithfulness verification function in production RAG systems?",
+    "expected_answer": "Theoretical description of faithfulness verification",
+    "expected_keywords": [
+      "rag",
+      "retrieval"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-051",
+    "question": "What are the key trade-offs when implementing faithfulness verification?",
+    "expected_answer": "Theoretical description of faithfulness verification",
+    "expected_keywords": [
+      "rerank",
+      "hybrid",
+      "score"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-052",
+    "question": "Could you summarize the theoretical motivation for faithfulness verification?",
+    "expected_answer": "Theoretical description of faithfulness verification",
+    "expected_keywords": [
+      "memory",
+      "parametric",
+      "ground"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-053",
+    "question": "In what scenarios does faithfulness verification fail or deliver sub-optimal results?",
+    "expected_answer": "Theoretical description of faithfulness verification",
+    "expected_keywords": [
+      "abstain",
+      "insufficient",
+      "threshold"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-054",
+    "question": "How does untrusted document delimitation function in production RAG systems?",
+    "expected_answer": "Theoretical description of untrusted document delimitation",
+    "expected_keywords": [
+      "rag",
+      "retrieval"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-055",
+    "question": "What are the key trade-offs when implementing untrusted document delimitation?",
+    "expected_answer": "Theoretical description of untrusted document delimitation",
+    "expected_keywords": [
+      "rerank",
+      "hybrid",
+      "score"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-056",
+    "question": "Could you summarize the theoretical motivation for untrusted document delimitation?",
+    "expected_answer": "Theoretical description of untrusted document delimitation",
+    "expected_keywords": [
+      "memory",
+      "parametric",
+      "ground"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-057",
+    "question": "In what scenarios does untrusted document delimitation fail or deliver sub-optimal results?",
+    "expected_answer": "Theoretical description of untrusted document delimitation",
+    "expected_keywords": [
+      "abstain",
+      "insufficient",
+      "threshold"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-058",
+    "question": "How does sentence-level chunking function in production RAG systems?",
+    "expected_answer": "Theoretical description of sentence-level chunking",
+    "expected_keywords": [
+      "rag",
+      "retrieval"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-059",
+    "question": "What are the key trade-offs when implementing sentence-level chunking?",
+    "expected_answer": "Theoretical description of sentence-level chunking",
+    "expected_keywords": [
+      "rerank",
+      "hybrid",
+      "score"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-060",
+    "question": "Could you summarize the theoretical motivation for sentence-level chunking?",
+    "expected_answer": "Theoretical description of sentence-level chunking",
+    "expected_keywords": [
+      "memory",
+      "parametric",
+      "ground"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-061",
+    "question": "In what scenarios does sentence-level chunking fail or deliver sub-optimal results?",
+    "expected_answer": "Theoretical description of sentence-level chunking",
+    "expected_keywords": [
+      "abstain",
+      "insufficient",
+      "threshold"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Domain-Variations"
+  },
+  {
+    "id": "eval-062",
+    "question": "How do lithium-ion batteries degrade over thermal cycles?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-063",
+    "question": "What are the core axioms of Zermelo-Fraenkel set theory?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-064",
+    "question": "What was the outcome of the Battle of Hastings in 1066?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-065",
+    "question": "What is the mechanism of action of penicillin?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-066",
+    "question": "What is the airspeed velocity of an unladen European swallow?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-067",
+    "question": "How are semiconductors doped using ion implantation?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-068",
+    "question": "What is the structure of hemoglobin in mammalian erythrocytes?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-069",
+    "question": "How do tectonic plates interact at subduction zones?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-070",
+    "question": "What is the capital of Madagascar?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-071",
+    "question": "How is reinforced concrete manufactured?",
+    "expected_answer": "Information not found",
+    "expected_keywords": [],
+    "should_abstain": true,
+    "difficulty": "Hard",
+    "category": "Unanswerable"
+  },
+  {
+    "id": "eval-072",
+    "question": "Can you describe its mathematical formulation?",
+    "expected_answer": "RRF formula c / (60 + rank)",
+    "expected_keywords": [
+      "rrf",
+      "rank",
+      "fusion"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Conversational",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "What is Reciprocal Rank Fusion?"
+      },
+      {
+        "role": "assistant",
+        "content": "Reciprocal Rank Fusion is an algorithm."
+      }
+    ]
+  },
+  {
+    "id": "eval-073",
+    "question": "Why is it computationally expensive?",
+    "expected_answer": "Cross-encoders evaluate tokens jointly across layers",
+    "expected_keywords": [
+      "cross-encoder",
+      "attention",
+      "tokens"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Conversational",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "What is a Cross-Encoder?"
+      },
+      {
+        "role": "assistant",
+        "content": "A Cross-Encoder is a reranking model."
+      }
+    ]
+  },
+  {
+    "id": "eval-074",
+    "question": "What are the primary differences between them?",
+    "expected_answer": "Bi-encoders encode independently while cross-encoders compute joint cross-attention",
+    "expected_keywords": [
+      "bi-encoder",
+      "cross-encoder"
+    ],
+    "should_abstain": false,
+    "difficulty": "Hard",
+    "category": "Conversational",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "Compare bi-encoders and cross-encoders."
+      },
+      {
+        "role": "assistant",
+        "content": "They represent two different retrieval architectures."
+      }
+    ]
+  },
+  {
+    "id": "eval-075",
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "expected_answer": "Foundational machine learning concepts",
+    "expected_keywords": [
+      "learning",
+      "neural",
+      "model"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "ML-Foundations"
+  },
+  {
+    "id": "eval-076",
+    "question": "How does stochastic gradient descent update model weights?",
+    "expected_answer": "Foundational machine learning concepts",
+    "expected_keywords": [
+      "learning",
+      "neural",
+      "model"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "ML-Foundations"
+  },
+  {
+    "id": "eval-077",
+    "question": "What is backpropagation in multi-layer perceptrons?",
+    "expected_answer": "Foundational machine learning concepts",
+    "expected_keywords": [
+      "learning",
+      "neural",
+      "model"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "ML-Foundations"
+  },
+  {
+    "id": "eval-078",
+    "question": "What role does activation functions play in deep networks?",
+    "expected_answer": "Foundational machine learning concepts",
+    "expected_keywords": [
+      "learning",
+      "neural",
+      "model"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "ML-Foundations"
+  },
+  {
+    "id": "eval-079",
+    "question": "What is dropout regularization in neural models?",
+    "expected_answer": "Foundational machine learning concepts",
+    "expected_keywords": [
+      "learning",
+      "neural",
+      "model"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "ML-Foundations"
+  },
+  {
+    "id": "eval-080",
+    "question": "What is the function of the learning rate schedule in optimization?",
+    "expected_answer": "Foundational machine learning concepts",
+    "expected_keywords": [
+      "learning",
+      "neural",
+      "model"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "ML-Foundations"
+  },
+  {
+    "id": "eval-081",
+    "question": "How do residual connections prevent vanishing gradients in ResNets?",
+    "expected_answer": "Foundational machine learning concepts",
+    "expected_keywords": [
+      "learning",
+      "neural",
+      "model"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "ML-Foundations"
+  },
+  {
+    "id": "eval-082",
+    "question": "What is batch normalization and how does it stabilize training?",
+    "expected_answer": "Foundational machine learning concepts",
+    "expected_keywords": [
+      "learning",
+      "neural",
+      "model"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "ML-Foundations"
+  },
+  {
+    "id": "eval-083",
+    "question": "What is cross-entropy loss and when is it employed in classification?",
+    "expected_answer": "Foundational machine learning concepts",
+    "expected_keywords": [
+      "learning",
+      "neural",
+      "model"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "ML-Foundations"
+  },
+  {
+    "id": "eval-084",
+    "question": "What is the bias-variance tradeoff in machine learning algorithms?",
+    "expected_answer": "Foundational machine learning concepts",
+    "expected_keywords": [
+      "learning",
+      "neural",
+      "model"
+    ],
+    "should_abstain": false,
+    "difficulty": "Medium",
+    "category": "ML-Foundations"
+  }
+]
